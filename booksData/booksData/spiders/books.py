@@ -5,7 +5,7 @@ from pathlib import Path
 #storing the data into the database
 import datetime
 from pymongo import MongoClient
-client = MongoClient("mongodb+srv://amarnath:scrap3142@cluster0.ipuz3gi.mongodb.net/")
+client = MongoClient("")# Add mongodb URI
 db = client.booksToScrap
 
 #function to store the data that we scrap from the website
