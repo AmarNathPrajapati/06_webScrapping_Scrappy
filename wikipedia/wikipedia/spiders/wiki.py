@@ -2,7 +2,7 @@
 import scrapy
 import datetime
 from pymongo import MongoClient
-client = MongoClient("mongodb+srv://amarnath:scrap3142@cluster0.ipuz3gi.mongodb.net/")
+client = MongoClient("")#Add mongodb URI
 db = client.wikipedia
 collection = db.wikipediaOrg
 
